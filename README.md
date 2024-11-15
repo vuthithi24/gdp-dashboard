@@ -28,6 +28,7 @@ Dự án này hiển thị thông tin về top 50 sân bay đông đúc nhất d
 - Các thư viện Python:
   - `streamlit`
   - `pandas`
+  - `plotly`
 
 ---
 
