@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Set the title and favicon
 st.set_page_config(
-    page_title='Top 50 sân bay đông đúc nhất',
+    page_title='Top 50 busiest airports',
     page_icon='airport.png',
 )
 
@@ -22,7 +22,7 @@ def get_total_data():
 total_df = get_total_data()
 
 # Draw the page title
-st.title("🛫 Top 50 sân bay đông đúc nhất")
+st.title("🛫 Top 50 busiest airports")
 
 # Select year range
 min_value = total_df['Year'].min()
